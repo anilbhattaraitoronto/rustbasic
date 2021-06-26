@@ -14,4 +14,15 @@ fn main() {
     let spaces = spaces.len(); //shadowing of variable
 
     println!("The number of spaces is {}", spaces);
+    // Data Types
+
+    let my_share: f32 = 3.4;
+    let speed: f64 = 5.670986;
+    let my_age: u8 = 51;
+    let earth_age: u64 = 4_800_000_000;
+
+    println!("My share is {}", my_share);
+    println!("Speed limit is: {} ", speed);
+    println!("My age is: {} ", my_age);
+    println!("The earth's age is {}", earth_age);
 }

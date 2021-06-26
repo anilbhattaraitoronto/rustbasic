@@ -86,11 +86,22 @@ fn main() {
 
     //if else
 
-    let my_age = 51;
-    if my_age > 50{
-        println!("On the cusp of second half");
-    }else{
-        println!("Still young")
+    // let my_age = 51;
+    // if my_age > 50{
+    //     println!("On the cusp of second half");
+    // }else{
+    //     println!("Still young")
+    // }
+
+    let number = 31;
+    if number % 4 == 0{
+        println!("The number is divisible by 4");
+    }
+    else if number % 3 == 0 {
+        println!("The number is divisible by 3");
+    }
+    else{
+        println!("The number is divisible neither by 4 nor by 3");
     }
 
 }

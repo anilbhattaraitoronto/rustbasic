@@ -57,11 +57,25 @@ fn main() {
     //Compound types: tuple and array
 
     //tuple 
+    // name: (type1, type2, type3) = (val1, val2, val3);
 
     let days = ("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday");
-    let (d1, d2, d3, d4, d5, d6, d7) = days;
+    let (d1, d2, d3, d4, d5, d6, d7) = days; //destructuring
 
     println!("Days of the week are: {}, {}, {}, {}, {}, {}, {}", d1, d2, d3, d4, d5, d6, d7);
+    println!("Firs day is: {}", days.0);
+
+    //array
+    // name: [type1, type2, type3] = [val1, val2, val2];
+    //useful for stack and, like tuple, also is fixed;
+
+    let months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
+    let one_to_five: [i8; 5] = [1, 2, 3, 4, 5];
+
+    println!("The first month is : {}", months[0]);
+    println!("The first number is: {}", one_to_five[0]);
+
 
 
 }

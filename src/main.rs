@@ -76,6 +76,10 @@ fn main() {
     println!("The first month is : {}", months[0]);
     println!("The first number is: {}", one_to_five[0]);
 
+    print_my_name();
 
+}
 
+fn print_my_name(){
+    println!("My name is Anil Bhattarai")
 }

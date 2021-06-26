@@ -40,4 +40,12 @@ fn main() {
     println!("Fractions are {}", fractions);
     println!("Remainder is {}", remainder);
 
+    //Boolean types
+
+    let is_driver = true;
+    let is_mechanic: bool = false;
+
+    println!("He is a driver, right? {}", is_driver);
+    println!("Is he a mechanic? {}", is_mechanic );
+
 }

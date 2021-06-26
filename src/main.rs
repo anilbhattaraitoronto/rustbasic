@@ -48,4 +48,20 @@ fn main() {
     println!("He is a driver, right? {}", is_driver);
     println!("Is he a mechanic? {}", is_mechanic );
 
+    //char types
+
+    let first_char = 'a';
+    let second_char = 'b';
+    println!("First character is {} and second character is {}", first_char, second_char);
+
+    //Compound types: tuple and array
+
+    //tuple 
+
+    let days = ("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday");
+    let (d1, d2, d3, d4, d5, d6, d7) = days;
+
+    println!("Days of the week are: {}, {}, {}, {}, {}, {}, {}", d1, d2, d3, d4, d5, d6, d7);
+
+
 }

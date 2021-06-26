@@ -1,3 +1,4 @@
+
 fn main() {
     let first_num = 8;
     println!("The first number is {}", first_num);
@@ -6,4 +7,6 @@ fn main() {
 
     second_num = 12;
     println!("The reassigned second number is {}", second_num);
+    const AGE: u32 = 51;
+    println!("My age is {}", AGE);
 }

@@ -9,4 +9,9 @@ fn main() {
     println!("The reassigned second number is {}", second_num);
     const AGE: u32 = 51;
     println!("My age is {}", AGE);
+
+    let spaces = "    ";
+    let spaces = spaces.len();
+
+    println!("The number of spaces is {}", spaces);
 }

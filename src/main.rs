@@ -32,10 +32,12 @@ fn main() {
     let difference = 20.56 - 19.08;
     let multiples = 5 * 6;
     let fractions: f32 =  25.00 / 100.00;
+    let remainder = 67%8;
 
     println!("Total is {}", total);
     println!("Difference is {} ", difference);
     println!("Multiples are {}", multiples);
     println!("Fractions are {}", fractions);
+    println!("Remainder is {}", remainder);
 
 }

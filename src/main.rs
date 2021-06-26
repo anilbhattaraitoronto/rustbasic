@@ -1,3 +1,4 @@
 fn main() {
-    println!("Hello, world!");
+    let first_num = 8;
+    println!("The first number is {}", first_num);
 }

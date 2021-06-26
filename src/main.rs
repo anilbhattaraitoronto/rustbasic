@@ -11,7 +11,7 @@ fn main() {
     println!("My age is {}", AGE);
 
     let spaces = "    ";
-    let spaces = spaces.len();
+    let spaces = spaces.len(); //shadowing of variable
 
     println!("The number of spaces is {}", spaces);
 }

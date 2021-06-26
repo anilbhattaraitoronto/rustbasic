@@ -104,6 +104,10 @@ fn main() {
         println!("The number is divisible neither by 4 nor by 3");
     }
 
+    let condition = false;
+    let number = if condition {30} else{35};
+    println!("The number is {}", number);
+
 }
 //function declarations
 

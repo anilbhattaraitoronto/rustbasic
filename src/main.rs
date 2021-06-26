@@ -77,9 +77,28 @@ fn main() {
     println!("The first number is: {}", one_to_five[0]);
 
     print_my_name();
+    send_message("Hello there".to_string());
+
+    give_fullname("Anil".to_string(), "Bhattarai".to_string());
+
+    give_details("Anil Bhattarai".to_string(), 51);
 
 }
 
 fn print_my_name(){
     println!("My name is Anil Bhattarai")
+}
+
+fn send_message(msg: String){ 
+    //must declare type of parameters
+    println!("The message is: {}", msg);
+}
+
+fn give_fullname(first_name: String, last_name: String){
+    println!("My full name is: {} {}", first_name, last_name);
+}
+
+fn give_details(fullname: String, age: u8){
+    println!("My name is: {}", fullname);
+    println!(" I am {} years old.", age);
 }

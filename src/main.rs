@@ -16,5 +16,12 @@ fn main() {
 
     println!("The third variable is: {}", third_var);
     println!("The fourth variable is: {}", fourth_var);
+
+    //copying numerical variables
+
+    let x = 5;
+    let y = x;
+
+    println!("The value of x is {}, and that of y is {}", x, y);
     
 }

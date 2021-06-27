@@ -10,5 +10,11 @@ fn main() {
     let second_str = first_str; //first_str is moved to second_str
     println!("The length of second string is: {} ", second_str.len());
     // println!("The first string is: {}", first_str);
+
+    let third_var = String::from("This is another variable");
+    let fourth_var = third_var.clone();
+
+    println!("The third variable is: {}", third_var);
+    println!("The fourth variable is: {}", fourth_var);
     
 }
